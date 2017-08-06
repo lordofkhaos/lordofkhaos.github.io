@@ -43,7 +43,8 @@
 }
 
 #subnav {
-  background-color: black;
+  background-color: #000;
+  padding: 14px 16px;
 }
 
 #bodyhead {
