@@ -12,7 +12,8 @@
 }
 
 .navbar {
-  background-color: dimgrey;
+    background-color: #333;
+    overflow: hidden;;
 }
 
 .background {
