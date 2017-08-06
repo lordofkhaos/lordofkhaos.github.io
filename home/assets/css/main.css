@@ -3,10 +3,11 @@
 
 .logo {
   color: red;
+  background-color: #00F;
   text-align: center;
   font: Times New Roman, serif;
   font-size: 18px;
-  float: left;
+  float: right;
   padding: 5px;
   margins: 0px;
 }
@@ -22,11 +23,7 @@
   background-image: url(#);
 }
 
-#topnav {
-  list-type: none;
-}
-
-#topnav a {
+.navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
