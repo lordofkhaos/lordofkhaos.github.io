@@ -11,7 +11,7 @@
   margins: 0px;
 }
 
-.navbar {
+#topnav {
     background-color: #333;
     overflow: hidden;;
 }
@@ -26,7 +26,7 @@
   list-type: none;
 }
 
-.navbar a {
+#topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -36,12 +36,12 @@
     font-size: 17px;
 }
 
-.navbar a:hover {
+#topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-.navbar .icon {
+#topnav .icon {
     display: none;
 }
 
@@ -55,8 +55,8 @@
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
-  .navbar a.icon {
+  #topnav a:not(:first-child) {display: none;}
+  #topnav a.icon {
     float: right;
     display: block;
   }
@@ -64,15 +64,17 @@
 
 /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
-  .navbar.responsive a.icon {
+  #topnav.responsive {position: relative;}
+  #topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .navbar.responsive a {
+  #topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
 }
+
+
