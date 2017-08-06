@@ -1,0 +1,34 @@
+/* Cascading Style Sheets for LordOfKhaos /home/index.html */
+/* All rights reserved. */
+
+.logo {
+  color: red;
+  text-align: center;
+  font: Times New Roman, serif;
+  font-size: 18px;
+  float: left;
+  padding: 5px;
+  margins: 0px;
+}
+
+.navbar {
+  background-color: dimgrey;
+}
+
+.background {
+  image-size: cover;
+  background-color: darkgray;
+  background-image: url(#);
+}
+
+#topnav {
+  list-type: none;
+}
+
+#subnav {
+  background-color: black;
+}
+
+#bodyhead {
+  font-size: 24px;
+}
