@@ -3,17 +3,17 @@
 
 .logo {
   color: red;
-  background-color: #0F0;
   text-align: center;
   font: Times New Roman, serif;
   font-size: 18px;
-  float: right;
+  float: left;
   padding: 5px;
   margins: 0px;
 }
 
 #topnav {
     background-color: #333;
+    overflow: hidden;;
 }
 
 .background {
@@ -22,7 +22,11 @@
   background-image: url(#);
 }
 
-.navbar a {
+#topnav {
+  list-type: none;
+}
+
+#topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -30,7 +34,6 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    overflow: hidden;
 }
 
 #topnav a:hover {
@@ -43,8 +46,7 @@
 }
 
 #subnav {
-  background-color: #000;
-  padding: 14px 16px;
+  background-color: black;
 }
 
 #bodyhead {
@@ -74,5 +76,4 @@
     text-align: left;
   }
 }
-
 
