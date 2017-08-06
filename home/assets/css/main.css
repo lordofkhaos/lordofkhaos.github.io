@@ -40,6 +40,10 @@
     color: black;
 }
 
+.navbar .icon {
+    display: none;
+}
+
 #subnav {
   background-color: black;
 }
