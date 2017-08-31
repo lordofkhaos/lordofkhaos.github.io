@@ -50,10 +50,6 @@
   background-color: black;
 }
 
-#bodyhead {
-  font-size: 24px;
-}
-
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
