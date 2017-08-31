@@ -62,7 +62,7 @@
 }
 
 #inner {
-  display: table;
+  display: inline;
   margin: 0 auto;
   padding: 5px;
   position: relative;
