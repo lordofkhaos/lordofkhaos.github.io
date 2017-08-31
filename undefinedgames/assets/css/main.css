@@ -64,4 +64,5 @@
 #inner {
   display: table;
   margin: 0 auto;
+  padding: 5px;
 }
