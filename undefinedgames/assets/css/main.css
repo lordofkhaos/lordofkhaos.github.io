@@ -66,10 +66,4 @@
   margin: 0 auto;
   padding: 5px;
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-}
-
-#inner iframe {
-  position: absolute;
 }
